@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
+import products from "@/data/database.json";
 
 export async function GET() {
-  return NextResponse.json({ name: "John Doe" });
+  return NextResponse.json(products);
 }
