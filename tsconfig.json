@@ -30,7 +30,8 @@
     ".next/types/**/*.ts",
     "app/api/products/route.jsx",
     "app/api/products/[id]/route.jsx",
-    "app/api/products/route.js"
+    "app/api/products/route.ts",
+    "app/api/products/[id]/route.ts"
   ],
   "exclude": ["node_modules"]
 }

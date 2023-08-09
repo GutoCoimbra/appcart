@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 export async function GET(req, { params }) {
   try {
-    const product = products.find((prod) => prod.slug === params.slug);
+    const product = products.find((prod) => prod.id === parseInt(params.id));
     if (!product) {
       return new NextResponse("not found", { status: 404 });
     }

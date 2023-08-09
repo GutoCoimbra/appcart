@@ -2,6 +2,9 @@
 const nextConfig = {
   experimental: {
     typedRoutes: true,
+    images: {
+      domains: ["store.storeimages.cdn-apple.com"],
+    },
   },
 };
 
